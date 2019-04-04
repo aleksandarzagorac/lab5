@@ -137,3 +137,63 @@
 09:39:04.953 INFO  - Refreshed build settings on project hello_world 
 10:33:44.745 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:17:10.327 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+09:17:11.520 INFO  - The hardware specification for project 'basic_system_hw_platform' is different from D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+09:17:11.550 INFO  - Copied contents of D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+09:17:11.553 INFO  - Copied contents of D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+09:17:11.554 INFO  - Copied contents of D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+09:17:11.979 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:17:13.174 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+09:17:14.735 INFO  - Updating hardware inferred compiler options for hello_world. 
+09:17:14.779 INFO  - Clearing existing target manager status. 
+09:19:35.897 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:19:35.905 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:19:35.942 WARN  - Unable to determine location of documentation for OS . 
+09:19:35.945 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:19:35.950 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:19:51.552 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:20:01.304 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:20:08.050 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:20:27.699 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:20:55.940 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:07.029 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:14.012 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:27.014 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:32.707 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:32.961 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:48.484 ERROR - Unable to read in MSS file D:\RA160-2016\lab5\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:21:57.009 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+09:26:23.184 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Invalid Target ID
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:39:56.056 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:40:36.528 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:51:44.117 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:52:30.627 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:54:28.546 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:55:00.894 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:56:40.927 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:57:15.848 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:00:43.402 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:01:07.377 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:08:43.410 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:09:50.064 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:11:10.880 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:13:37.525 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:14:33.966 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:15:51.804 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:18:46.739 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:19:27.869 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:23:21.621 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:24:16.737 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:24:41.457 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:25:02.292 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:25:34.849 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:26:00.192 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:27:37.829 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:28:01.833 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

@@ -16,11 +16,12 @@ void set_cursor(Xuint32 new_value){
 	cursor_position = new_value;
 }
 
-void clear_text_screen(Xuint32 BaseAddress){
-	int i;
-	for (i = 0; i < 4800; i++){
-		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + i*4, 0x20);
-	}
+
+void print_char(Xuint32 BaseAddress, unsigned char c, int lenght){
+
+
+	VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + cursor_position, lenght);
+
 }
 
 void print_string(Xuint32 BaseAddress, unsigned char string_s[], int lenght){
@@ -30,11 +31,47 @@ void print_string(Xuint32 BaseAddress, unsigned char string_s[], int lenght){
 	}
 }
 
+void clear_text_screen(Xuint32 BaseAddress){
+	int i;
+	for (i = 0; i < 4800; i++){
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + i*4, 0x20);
+	}
+}
+
+
 void clear_graphics_screen(Xuint32 BaseAddress){
 	int i;
 	for (i = 0; i < 9600; i++){
 	    VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
 	}
+}
+
+void clear_screen(Xuint32 BaseAddress){
+	int i;
+	for (i = 0; i < 4800; i++){
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + i*4, 0x20);
+	}
+	for (i = 0; i < 9600; i++){
+		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
+	}
+}
+
+void set_forground_color(Xuint32 BaseAddress, int colour){
+	VGA_PERIPH_MEM_mWriteMemory(BaseAddress, colour);
+
+
+}
+
+void set_background_color(Xuint32 BaseAddress, int colour){
+	VGA_PERIPH_MEM_mWriteMemory(BaseAddress, colour);
+
+
+}
+
+void set_font_size(Xuint32 BaseAddress, int font){
+	VGA_PERIPH_MEM_mWriteMemory(BaseAddress, font);
+
+
 }
 
 void draw_square(Xuint32 BaseAddress){
@@ -51,3 +88,48 @@ void draw_square(Xuint32 BaseAddress){
 			}
 		}
 }
+
+void draw_rectangle(Xuint32 BaseAddress){
+	int i, j, k;
+		for (j = 0; j < 480; j++){
+			for (k = 0; k<(640/32); k++){
+				i = j*(640/32) + k;
+				if ((j > 100) && (j < 180) && (k > 5) && (k < 11)) {
+					VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+				}
+				else{
+					VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
+				}
+			}
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
