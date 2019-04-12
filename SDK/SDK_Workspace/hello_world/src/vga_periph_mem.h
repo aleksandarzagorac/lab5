@@ -83,6 +83,10 @@ void set_background_color(Xuint32 BaseAddress, int colour);
 void set_font_size(Xuint32 BaseAddress, int font);
 void draw_rectangle(Xuint32 BaseAddress);
 
+void draw_smt(Xuint32 BaseAddress);
+
+int get_resolution(Xuint32 BaseAddress);
+
 
 
 #endif /** VGA_PERIPH_MEM_H */

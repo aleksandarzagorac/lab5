@@ -197,3 +197,150 @@
 10:26:00.192 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
 10:27:37.829 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
 10:28:01.833 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:02:24.835 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+11:02:34.257 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:02:58.997 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+11:04:08.719 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+11:31:07.687 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:31:07.687 ERROR - Timeout occured while waiting to get reply for command "set_cur_target 0" 
+11:31:07.793 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:44:49.525 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:45:32.799 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:45:39.688 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:45:41.187 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:45:47.553 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:01.643 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:05.142 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:46:31.618 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:55.085 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:46:59.385 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:47:24.374 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:47:24.374 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:47:27.674 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:47:29.874 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:47:57.120 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:47:57.219 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:48:06.870 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:48:09.070 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:48:26.411 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:48:28.311 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:48:55.927 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:48:59.326 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+11:49:04.210 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:49:24.330 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+11:52:25.189 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:52:25.189 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+11:52:25.191 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:54:29.326 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:58:40.071 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:58:40.071 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+11:58:40.071 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:59:51.646 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:59:51.646 ERROR - Timeout occured while waiting to get reply for command "xbreakpoint 0 exit sw" 
+11:59:51.647 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:08:42.612 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+12:08:42.612 ERROR - Timeout occured while waiting to get reply for command "xcontinue 0 0x0 -status_on_stop" 
+12:08:42.612 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.continueExecution(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:09:35.850 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:42.691 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:09:43.990 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+12:09:49.208 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:10:06.052 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+12:16:13.516 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:16:15.118 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+12:16:21.442 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:16:40.763 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+12:21:56.326 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+12:21:56.326 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+12:21:56.328 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:22:55.896 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Invalid Target ID
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:29:31.499 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:29:31.598 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:29:36.890 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:29:51.251 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+12:32:00.671 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

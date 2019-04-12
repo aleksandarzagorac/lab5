@@ -9,6 +9,7 @@
 /***************************** Include Files *******************************/
 
 #include "vga_periph_mem.h"
+
 Xuint32 cursor_position;
 /************************** Function Definitions ***************************/
 
@@ -103,6 +104,73 @@ void draw_rectangle(Xuint32 BaseAddress){
 			}
 		}
 }
+
+void draw_smt(Xuint32 BaseAddress){
+	int i, j, k;
+			for (j = 0; j < 480; j++){
+				for (k = 0; k<(640/32); k++){
+					i = j*(640/32) + k;
+					if ((j > 100) && (j < 280)  /*(k > 5) && (k < 11)*/) {
+						if(j > 100 && j < 120){
+							if(k >8 && k < 10){
+								VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else if(j >= 120 && j < 140){
+							if(k >7 && k < 11){
+									VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+
+						}else if(j >= 140 && j < 160){
+							if(k >6 && k < 12){
+									VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else if(j >= 160 && j < 180){
+							if(k >5 && k < 13){
+									VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+
+						}else if(j >= 180 && j < 200){
+							if(k >4 && k < 14){
+								VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else if(j >= 200 && j < 220){
+							if(k >5 && k < 13){
+								VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else if(j >= 220 && j < 240){
+							if(k >6 && k < 12){
+								VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else if(j >= 240 && j < 260){
+							if(k >7 && k < 11){
+								VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else if(j >= 260 && j < 280){
+							if(k >8 && k < 10){
+								VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+							}
+						}else{
+							VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+						}
+
+
+
+					}
+
+				}
+			}
+}
+
+int get_resolution(Xuint32 BaseAddress){
+	int i = 0;
+	int kraj_ekrana = 0;
+
+	while(i != kraj_ekrana ){
+		i++;
+	}
+	return i;
+}
+
 
 
 
