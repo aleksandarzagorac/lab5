@@ -1528,3 +1528,35 @@ Done writing filter settings to:
 	D:\RA160-2016\lab5\lab5\etc\system.filters
 Done writing Tab View settings to:
 	D:\RA160-2016\lab5\lab5\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Mon Apr 15 09:03:32 2019
+ make -f system.make exporttosdk started...
+make: Ništa za napraviti za `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Mon Apr 15 09:03:32 2019
+ xsdk.exe -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Mon Apr 15 09:21:19 2019
+ make -f system.make exporttosdk started...
+make: Ništa za napraviti za `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Mon Apr 15 09:21:19 2019
+ xsdk.exe -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!

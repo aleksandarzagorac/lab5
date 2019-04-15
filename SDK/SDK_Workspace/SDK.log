@@ -344,3 +344,27 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 12:29:36.890 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 12:29:51.251 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
 12:32:00.671 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:03:45.831 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+09:04:33.019 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Unknown Error
+ 
+09:04:57.619 INFO  - FPGA configured successfully with bitstream "D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:16:58.250 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+09:16:58.250 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+09:16:58.252 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:20:50.102 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:20:50.401 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:20:52.601 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+09:20:59.568 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:21:05.814 WARN  - Terminating existing sessions on processor microblaze_0 
+09:21:10.046 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

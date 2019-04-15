@@ -86,6 +86,7 @@ void draw_rectangle(Xuint32 BaseAddress);
 void draw_smt(Xuint32 BaseAddress);
 
 int get_resolution(Xuint32 BaseAddress);
+void draw_square2(Xuint32 BaseAddress);
 
 
 

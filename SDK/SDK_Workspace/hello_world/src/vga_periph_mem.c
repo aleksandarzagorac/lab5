@@ -9,6 +9,7 @@
 /***************************** Include Files *******************************/
 
 #include "vga_periph_mem.h"
+#define BRZINA 20000
 
 Xuint32 cursor_position;
 /************************** Function Definitions ***************************/
@@ -88,6 +89,68 @@ void draw_square(Xuint32 BaseAddress){
 				}
 			}
 		}
+}
+
+void draw_square2(Xuint32 BaseAddress){
+	int i, j, k;
+	int x,y;
+	x = -1;
+	y = 3;
+	int br = 0;
+
+T:	while(1){
+		br++;
+		if(br %BRZINA == 0){
+			br = 0;
+			for (j = 0; j < 480; j++){
+				for (k = 0; k<(640/32); k++){
+					i = j*(640/32) + k;
+					if ((j > 200) && (j < 280) && (k > x) && (k < y)) {
+						VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+
+					}
+					else{
+						VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
+					}
+				}
+
+			}
+			if(x < 16){
+				x++;
+				y++;
+			}else{
+				break;
+			}
+		}
+	}
+	while(1){
+		br++;
+		if(br %BRZINA == 0){
+			for (j = 0; j < 480; j++){
+				for (k = 0; k<(640/32); k++){
+					i = j*(640/32) + k;
+					if ((j > 200) && (j < 280) && (k > x) && (k < y)) {
+						VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
+
+					}
+					else{
+						VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
+					}
+				}
+
+			}
+			if(x >= 0){
+						x--;
+						y--;
+			}else{
+						break;
+			}
+		}
+	}
+	goto T;
+
+
+
 }
 
 void draw_rectangle(Xuint32 BaseAddress){
