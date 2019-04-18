@@ -94,8 +94,8 @@ void draw_square(Xuint32 BaseAddress){
 void draw_square2(Xuint32 BaseAddress){
 	int i, j, k;
 	int x,y;
-	x = -1;
-	y = 3;
+	x = 0;
+	y = 4;
 	int br = 0;
 
 T:	while(1){

@@ -39,17 +39,17 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" partName="helloworld.c" path="D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/hello_world/src/helloworld.c" title="helloworld.c" tooltip="hello_world/src/helloworld.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" partName="helloworld.c" path="D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/hello_world/src/helloworld.c" title="helloworld.c" tooltip="hello_world/src/helloworld.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/hello_world/src/helloworld.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3157" selectionTopPixel="576"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2992" selectionTopPixel="465"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="vga_periph_mem.c" partName="vga_periph_mem.c" path="D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/hello_world/src/vga_periph_mem.c" title="vga_periph_mem.c" tooltip="hello_world/src/vga_periph_mem.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="vga_periph_mem.c" partName="vga_periph_mem.c" path="D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/hello_world/src/vga_periph_mem.c" title="vga_periph_mem.c" tooltip="hello_world/src/vga_periph_mem.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/hello_world/src/vga_periph_mem.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2008" selectionTopPixel="90"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2521" selectionTopPixel="810"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="vga_periph_mem.h" partName="vga_periph_mem.h" path="D:/RA160-2016/lab5/lab5/SDK/SDK_Workspace/hello_world/src/vga_periph_mem.h" title="vga_periph_mem.h" tooltip="hello_world/src/vga_periph_mem.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/hello_world/src/vga_periph_mem.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2901" selectionTopPixel="855"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="761" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -62,6 +62,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
 <category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
@@ -160,7 +161,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.15541264" ratioLeft="145" ratioRight="788" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.7458848" ratioLeft="725" ratioRight="247" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.8218884" ratioLeft="766" ratioRight="166" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -195,163 +196,159 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/helloworld.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/vga_periph_mem.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/vga_periph_mem.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/vga_periph_mem.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/vga_periph_mem.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/helloworld.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/vga_periph_mem.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/helloworld.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world/src/vga_periph_mem.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/hello_world_bsp/microblaze_0/include/xparameters.h"/>
 </editors>
-<item historyLabel="vga_periph_mem.h" index="2">
-<position info="not_deleted" x="2860" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="1">
-<position info="not_deleted" x="2703" y="1"/>
-</item>
 <item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="3216" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="1">
-<position info="not_deleted" x="2703" y="1"/>
-</item>
-<item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="3210" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="1">
-<position info="not_deleted" x="2729" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="3210" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.h" index="3">
-<position info="not_deleted" x="2899" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4359" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="3340" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="2941" y="34"/>
-</item>
-<item historyLabel="vga_periph_mem.h" index="3">
-<position info="not_deleted" x="2899" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="3340" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="2941" y="34"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="3202" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="3735" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="0">
-<position info="not_deleted" x="3340" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="3735" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="3468" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="5">
-<position info="not_deleted" x="3342" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4358" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.h" index="6">
-<position info="not_deleted" x="2943" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4292" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.h" index="6">
-<position info="not_deleted" x="2943" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4292" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="5">
-<position info="not_deleted" x="3132" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4292" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4899" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4766" y="39"/>
-</item>
-<item historyLabel="vga_periph_mem.h" index="6">
-<position info="not_deleted" x="2901" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="4">
-<position info="not_deleted" x="4766" y="39"/>
-</item>
-<item historyLabel="helloworld.c" index="7">
 <position info="not_deleted" x="2659" y="0"/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="4">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="1495" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
-<position info="not_deleted" x="2659" y="0"/>
-</item>
-<item historyLabel="vga_periph_mem.c" index="8">
-<position info="not_deleted" x="1495" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="3229" y="0"/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="8">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="1495" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="3229" y="0"/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="8">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="3022" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="3508" y="0"/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="8">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="3173" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="3508" y="0"/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="8">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="3173" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="3081" y="0"/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="8">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="2008" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position/>
 </item>
-<item historyLabel="vga_periph_mem.c" index="8">
+<item historyLabel="vga_periph_mem.c" index="1">
 <position info="not_deleted" x="2008" y="0"/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position/>
 </item>
-<item historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="2578" y="0"/>
 </item>
-<item active="true" historyLabel="helloworld.c" index="7">
+<item historyLabel="helloworld.c" index="0">
 <position info="not_deleted" x="3436" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2265" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="2578" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2265" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.h" index="3">
+<position info="not_deleted" x="2984" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2554" y="38"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3364" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2712" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3382" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2920" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.h" index="3">
+<position info="not_deleted" x="761" y="16"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2920" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="3142" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3362" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2870" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3370" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2547" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2416" y="1"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3370" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2651" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="2651" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="3167" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="3184" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3362" y="0"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="3098" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="3199" y="28"/>
+</item>
+<item historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="1211" y="11"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="2748" y="0"/>
+</item>
+<item historyLabel="xparameters.h" index="4">
+<position info="not_deleted" x="5722" y="41"/>
+</item>
+<item historyLabel="helloworld.c" index="0">
+<position info="not_deleted" x="2992" y="0"/>
+</item>
+<item active="true" historyLabel="vga_periph_mem.c" index="2">
+<position info="not_deleted" x="1211" y="11"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -370,11 +367,11 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga_periph_mem.h" tooltip="hello_world/src/vga_periph_mem.h">
-<persistable path="/hello_world/src/vga_periph_mem.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" tooltip="hello_world_bsp/microblaze_0/include/xparameters.h">
 <persistable path="/hello_world_bsp/microblaze_0/include/xparameters.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga_periph_mem.h" tooltip="hello_world/src/vga_periph_mem.h">
+<persistable path="/hello_world/src/vga_periph_mem.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vga_periph_mem.c" tooltip="hello_world/src/vga_periph_mem.c">
 <persistable path="/hello_world/src/vga_periph_mem.c"/>

@@ -368,3 +368,44 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 09:20:59.568 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
 09:21:05.814 WARN  - Terminating existing sessions on processor microblaze_0 
 09:21:10.046 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:21:25.610 INFO  - Processing command line option -hwspec D:\RA160-2016\lab5\lab5\SDK\SDK_Export\hw\system.xml. 
+09:22:22.076 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:22:31.848 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:22:47.925 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:22:59.492 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:23:54.752 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:24:08.350 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:24:15.813 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:29:43.674 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:38:00.385 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+09:38:00.385 ERROR - Timeout occured while waiting to get reply for command "xremove 0 all" 
+09:38:00.387 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.removeAllBreakpoints(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:39:28.140 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+09:39:28.140 ERROR - Timeout occured while waiting to get reply for command "xdebugconfig 0 -reset_on_run system enable" 
+09:39:28.141 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:46:54.785 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:47:39.928 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:53:32.388 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:54:05.448 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:54:22.129 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:54:42.099 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:55:18.056 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:55:50.745 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:57:07.015 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:59:57.469 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:10:03.060 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:10:23.613 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:10:32.369 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:22:51.300 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:22:51.307 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
